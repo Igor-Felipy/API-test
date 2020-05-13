@@ -5,6 +5,9 @@ r1.text
 r1.json
 r1.content
 r1.status_code
+r1.cookies['nome de um cookie']
+r1.url
+r1.history
 
 
 r2 = requests.post("end point", data={'key':'value'})#cria
