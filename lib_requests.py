@@ -4,6 +4,8 @@ r1 = requests.get("")#solicita
 r1.text
 r1.json
 r1.content
+r1.status_code
+
 
 r2 = requests.post("end point", data={'key':'value'})#cria
 
